@@ -7,7 +7,7 @@ namespace Datos.Repositorios;
 
 public class UsuarioRepositorio : IUsuarioRepositorio
 {
-
+    
     private string CadenaConexion;
 
     public UsuarioRepositorio(string cadenaConexion)

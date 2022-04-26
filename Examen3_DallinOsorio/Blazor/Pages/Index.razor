@@ -3,17 +3,31 @@
 <AuthorizeView Roles="Administrador">
     <Authorized Context="AuthenticationState">
         <h1  class="text-center" style="color:blue">Bienvenido Administrador</h1>
+        <div>
+
+        </div>
+        <img src="https://todoabogados.org/wp-content/uploads/2019/12/administrador-judicial.jpg"  align="middle" width="500" height="400">
     </Authorized>
 </AuthorizeView>
 
 <AuthorizeView Roles="Usuario">
     <Authorized Context="AuthenticationState">
          <h1  class="text-center" style="color:blue">Bienvenido Usuario</h1>
+         <div>
+
+        </div>
+        <img src="https://th.bing.com/th/id/OIP.HcoVvrV-WZxu25y6mNeOQgHaDt?pid=ImgDet&rs=1" align="middle"  width="300" height="200">
+
     </Authorized>
 </AuthorizeView>
 
 <AuthorizeView>
     <NotAuthorized>
        <h1  class="text-center" style="color:blue">Debe identificarse para poder acceder a esta aplicación</h1>
+         <div>
+
+        </div>
+        <img src="https://th.bing.com/th/id/R.96f4e0bcfa45c7295a096bf589d7fbf4?rik=MpCbnpezpOL9Qg&riu=http%3a%2f%2fpadelecuador.com%2fwp-content%2fuploads%2f2016%2f09%2fBOTON_INICIARSESION.png&ehk=wixtNG62NPgLwgDvR%2bKioEfGiotEgc6JLlGw64Lfj0c%3d&risl=&pid=ImgRaw&r=0" align="top"  width="300" height="200">
+    
     </NotAuthorized> 
 </AuthorizeView>

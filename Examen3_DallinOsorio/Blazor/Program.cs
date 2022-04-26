@@ -15,7 +15,7 @@ MySQLConfiguration cadenaConexion = new MySQLConfiguration(builder.Configuration
 builder.Services.AddSingleton(cadenaConexion);
 
 builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
-builder.Services.AddSweetAlert2();
+
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 builder.Services.AddHttpContextAccessor();

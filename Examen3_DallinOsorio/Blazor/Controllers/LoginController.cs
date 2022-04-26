@@ -1,10 +1,8 @@
 ﻿using Blazor.Data;
-using CurrieTechnologies.Razor.SweetAlert2;
 using Datos.Interfaces;
 using Datos.Repositorios;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Modelos;
 using System.Security.Claims;
@@ -13,7 +11,7 @@ namespace Blazor.Controllers;
 
 public class LoginController : Controller
 {
-    [Inject] SweetAlertService Swal { get; set; }
+   
     private readonly MySQLConfiguration _configuration;
     private IUsuarioRepositorio _usuarioRepositorio;
 
